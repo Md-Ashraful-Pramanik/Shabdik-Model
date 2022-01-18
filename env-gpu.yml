@@ -1,4 +1,4 @@
-name: banglish-model.py
+name: thesis
 channels:
   - defaults
 dependencies:
@@ -69,7 +69,6 @@ dependencies:
   - mkl_random=1.1.1=py38h0573a6f_0
   - multidict=5.1.0=py38h27cfd23_2
   - ncurses=6.2=he6710b0_1
-  - numpy=1.19.2=py38h54aff64_0
   - numpy-base=1.19.2=py38hfa32c7d_0
   - oauthlib=3.1.0=py_0
   - olefile=0.46=py_0
@@ -120,10 +119,26 @@ dependencies:
   - zlib=1.2.11=h7b6447c_3
   - zstd=1.4.9=haebb681_0
   - pip:
+    - aiofiles==0.7.0
+    - bidict==0.21.2
+    - fastapi==0.68.0
+    - httptools==0.2.0
+    - hypercorn==0.11.2
     - joblib==1.0.1
+    - numpy==1.19.5
     - phonetics==1.0.5
+    - priority==2.0.0
+    - pydantic==1.8.2
+    - python-engineio==4.2.0
+    - python-socketio==5.3.0
+    - sanic==21.3.4
+    - sanic-routing==0.6.2
     - scikit-learn==0.24.1
     - sklearn==0.0
+    - starlette==0.14.2
     - tensorflow-addons==0.11.2
     - threadpoolctl==2.1.0
-prefix: /mnt/40DB58A460638DC2/miniconda3/envs/banglish-model.py
+    - ujson==4.2.0
+    - uvloop==0.16.0
+    - websockets==8.1
+prefix: /mnt/40DB58A460638DC2/miniconda3/envs/thesis
