@@ -1,4 +1,4 @@
-# Shabdik-Model
+# Shabdik
 A Transliteration based Bengali Keyboard
 
 <hr>
